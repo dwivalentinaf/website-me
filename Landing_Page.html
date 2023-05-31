@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page </title>
+    <style type="text/css">
+        
+        html{
+        scroll-behavior: smooth;
+        margin:0;
+        padding:0;
+        }
+            
+        body {
+        font-family: "Avenir Next";
+        margin: 0;
+        padding: 0;
+        }
+
+        /* Navigasi */
+        header {
+        background-color: rgb(199, 197, 155);
+        display: flex;
+        justify-content: space-around;
+        color:black;
+        padding : 20px 0;
+        height: 50px;
+        align-items: center;
+        }
+
+        .logo {
+        font-size: 24px;
+        letter-spacing: 5px;
+        }
+
+        header ul {
+        list-style:none;
+        display : flex;
+        width:40%;
+        justify-content: space-between;
+        color:#111010;
+        }
+
+        .list li {
+        font-size: 20px;
+        float: left;
+        padding: 33px 20px;
+        }
+
+        .list li, a {
+        list-style: none;
+        text-decoration: none;
+        color: #111010;
+        }
+
+        .list li, a:hover {
+        color : white;
+        }
+
+        /* latar */
+
+        .latar {
+        background-image:url(tokobunga.jpg);
+        background-size: cover;
+        text-align: center;
+        padding: 200px 0px 200px 0px;
+        color:rgb(9, 9, 9);
+        }
+        .konten {
+        width: 1170px;
+        margin: 0 auto;
+        }
+        .latar h1 {
+        font-size: 80px;
+        }
+        .latar h2 {
+        font-size: 50px;
+        font-weight: normal;
+        }
+        span{
+        color: #65501d;
+        }
+        .btn-daftar {
+        margin: 30px 0;
+        } 
+        .btn {
+        padding : 16px 32px;
+        border-radius: 4px;
+        display: inline-block;
+        color:azure;
+        font-size: 20px;
+        }
+            
+        .mulai {
+        background-color: #3b5998;
+        margin-right: 10px;
+        }
+        .registrasi {
+        background-color: #55acee;
+        } 
+        .btn:hover {
+        opacity: 0.8;
+        }
+
+        /* footer */
+
+        footer {
+        background-color: #2f5167;
+        color: #fff;
+        padding: 40px;
+        height: 120px;
+        }
+            
+        .footer-logo{
+        font-size: 32px;
+        float: left;
+        }
+            
+        .footer-list{
+        float:right;
+        }
+            
+        .footer-list li {
+        padding-bottom: 20px;
+        color:#dee7ec;
+        }
+
+
+    </style>
+</head>
+<body>
+    <script>
+        alert("Selamat datang di FlowRist! ");
+      </script>
+    <header>
+        <div class="logo">
+            <h1> FlowRist! </h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li> <a href="Landing_Page.html"> Home </a> </li>
+                <li> <a href="about.html"> About </a> </li>
+                <li> <a href="produk.html"> Product </a> </li>
+                <li> <a href="pelayanan.html"> Pelayanan </a> </li>
+                <li> <a href="kontak.html"> Contact </a> </li>
+            </ul>
+        </div>    
+    </header>
+    
+        <div class="latar">
+            <div class="konten" id="home">
+                <h1> Flow <span>Rist</span>  </h1>
+                <h2> " Find Your Flower Here! " </h2>
+            </div>
+
+            <div class="btn-daftar">
+                <a href="#" class="btn mulai"> Get Started </a>
+                <a href="#" class="btn registrasi"> Register </a>
+            </div>
+        </div>
+
+    
+        <footer>
+            <div class="footer-logo">
+                <h3>  FlowRist </h3>
+            </div>
+                
+            <div class="footer-list">
+                <ul>
+                    <li> About </li>
+                    <li> Product </li>
+                    <li> Pelayanan </li>
+                    <li> Hubungi Kami </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
